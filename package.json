@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "run-p build:*",
     "build:js": "webpack",
-    "build:html": "pug src/index.pug --out dist --silent",
-    "prebuild": "rimraf dist",
+    "build:html": "pug src/index.pug --out . --silent",
+    "prebuild": "rimraf *.js *.html",
     "start": "webpack-dev-server --content-base dist/"
   },
   "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
