@@ -9,7 +9,7 @@
     "build:js": "webpack",
     "build:html": "pug src/index.pug --out . --silent",
     "prebuild": "rimraf *.js *.html",
-    "start": "webpack-dev-server --content-base dist/"
+    "start": "webpack-dev-server --content-base ./"
   },
   "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
   "keywords": [],

@@ -14093,7 +14093,7 @@ exports = module.exports = __webpack_require__(11)(false);
 
 
 // module
-exports.push([module.i, "\n@charset \"UTF-8\";\np {\n  font-family: \"HiraginoSans-W2\",\"\\30D2\\30E9\\30AE\\30CE\\89D2\\30B4\\30B7\\30C3\\30AF   W2\";\n  color: #888;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"HiraginoSans-W0\",\"\\30D2\\30E9\\30AE\\30CE\\89D2\\30B4\\30B7\\30C3\\30AF   W0\";\n  font-weight: 0;\n  color: #333;\n}\na {\n  text-decoration: none;\n  color: #88f;\n}\n#app .main .schools .school {\n  font-size: 14px;\n}\n#app .main .schools .school a span {\n    font-size: 18px;\n}\n", ""]);
+exports.push([module.i, "\n@charset \"UTF-8\";\np {\n  font-family: \"HiraginoSans-W2\",\"\\30D2\\30E9\\30AE\\30CE\\89D2\\30B4\\30B7\\30C3\\30AF   W2\";\n  color: #888;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"HiraginoSans-W0\",\"\\30D2\\30E9\\30AE\\30CE\\89D2\\30B4\\30B7\\30C3\\30AF   W0\";\n  font-weight: 0;\n  color: #333;\n}\na {\n  text-decoration: none;\n  color: #88f;\n}\n#app .main table {\n  width: 90%;\n  border-top: 1px solid #e5eff8;\n  border-right: 1px solid #e5eff8;\n  margin: 1em auto;\n  border-collapse: collapse;\n}\n#app .main table td {\n    color: #678197;\n    border-bottom: 1px solid #e5eff8;\n    border-left: 1px solid #e5eff8;\n    padding: .3em 1em;\n    text-align: center;\n}\n#app .main .schools .school {\n  font-size: 14px;\n}\n#app .main .schools .school a span {\n    font-size: 18px;\n}\n", ""]);
 
 // exports
 
@@ -14471,11 +14471,33 @@ var staticRenderFns = [
               _c("h3", [_vm._v("Name")]),
               _c("p", [_vm._v("Shotaro Takahara (髙原 照太郎)")])
             ]),
+            _c("div", { staticClass: "birth" }, [
+              _c("h3", [_vm._v("Birth")]),
+              _c("p", [_vm._v("Born in Jul 11, 1999")])
+            ]),
+            _c("div", { staticClass: "place" }, [
+              _c("h3", [_vm._v("Place")]),
+              _c("p", [_vm._v("Shimo-kitazawa, Setagaya, Tokyo, Japan")])
+            ]),
             _c("div", { staticClass: "skils" }, [
               _c("h3", [_vm._v("skils")]),
               _c("p", [_vm._v("WEB: HTML5, CSS3, JavaScript")]),
               _c("p", [_vm._v("Node.js: VueJS, ReactJS, Angular etc...")]),
-              _c("p", [_vm._v("Ruby: on Rails, Sinatra")])
+              _c("p", [_vm._v("Ruby: on Rails, Sinatra")]),
+              _c("p", [
+                _vm._v("More Detail:"),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://github.com/takasho-tutrial/",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v(" takasho-tutrial")]
+                ),
+                _vm._v(" on GitHub")
+              ])
             ])
           ]),
           _c("div", { staticClass: "histories" }, [
@@ -14483,7 +14505,8 @@ var staticRenderFns = [
             _c("table", [
               _c("tr", [
                 _c("th", [_vm._v("Period")]),
-                _c("th", [_vm._v("Place")])
+                _c("th", [_vm._v("Place")]),
+                _c("th", [_vm._v("Position")])
               ]),
               _c("tr", [
                 _c("td", [_vm._v("Jun 2016 ~")]),
@@ -14499,7 +14522,8 @@ var staticRenderFns = [
                     },
                     [_vm._v("UNCVER TRUTH")]
                   )
-                ])
+                ]),
+                _c("td", [_vm._v("Frontside Engineer")])
               ]),
               _c("tr", [
                 _c("td", [_vm._v("Feb 2018 ~")]),
@@ -14509,6 +14533,65 @@ var staticRenderFns = [
                     "a",
                     { attrs: { href: "http://lecoco.jp", target: "_blank" } },
                     [_vm._v("Lecoco")]
+                  )
+                ]),
+                _c("td", [_vm._v("Frontside Engineer")])
+              ]),
+              _c("tr", [
+                _c("td", [_vm._v("Apr 2018 ~")]),
+                _c("td", [
+                  _vm._v("at "),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "http://www.legoschool.jp/",
+                        target: "_blank"
+                      }
+                    },
+                    [_vm._v("LEGO School")]
+                  )
+                ]),
+                _c("td", [
+                  _vm._v("Technical mentor for"),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "http://www.firstlegoleague.org/",
+                        target: "_blank"
+                      }
+                    },
+                    [_vm._v(" FIRST LEGO LEAGUE")]
+                  )
+                ])
+              ])
+            ]),
+            _c("div", { staticClass: "Developing" }, [
+              _c("h2", [_vm._v("Developing")]),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.hs.keio.ac.jp/hiyoshifes/",
+                        target: "_blank"
+                      }
+                    },
+                    [_vm._v("68th Hiyoshi Festival HP")]
+                  )
+                ]),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://github.com/uncovertruth/examples/",
+                        target: "_blank"
+                      }
+                    },
+                    [_vm._v("Examples for Userdive Tracker")]
                   )
                 ])
               ])
