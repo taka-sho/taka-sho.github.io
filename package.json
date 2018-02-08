@@ -1,0 +1,45 @@
+{
+  "name": "taka-sho.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "run-p build:*",
+    "build:js": "webpack",
+    "build:html": "pug src/index.pug --out dist --silent",
+    "prebuild": "rimraf dist",
+    "start": "webpack-dev-server --content-base dist/"
+  },
+  "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
+  "keywords": [],
+  "author": "taka-sho <takasho530000@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taka-sho/taka-sho.github.io/issues"
+  },
+  "homepage": "https://github.com/taka-sho/taka-sho.github.io#readme",
+  "devDependencies": {
+    "@types/node": "^9.4.2",
+    "@types/vue": "^2.0.0",
+    "css-loader": "^0.28.9",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^3.5.0",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.1",
+    "vue-loader": "^14.1.1",
+    "vue-style-loader": "^3.1.2",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
+}
