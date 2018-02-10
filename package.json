@@ -29,6 +29,7 @@
     "pug": "^2.0.0-rc.4",
     "pug-cli": "^1.0.0-alpha6",
     "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
     "ts-loader": "^3.5.0",
     "ts-node": "^4.1.0",
     "tslint": "^5.9.1",
@@ -40,6 +41,7 @@
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.1",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
   }
