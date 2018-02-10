@@ -19,4 +19,5 @@ test:
 
 general:
   artifacts:
-    - "./index.*"
+    - "./index.html"
+    - "./main.bundle.js"

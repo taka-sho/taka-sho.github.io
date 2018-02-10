@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: {
-    index: path.join(__dirname, 'src/index.ts')
+    main: path.join(__dirname, 'src/index.ts')
   },
   output: {
     path: __dirname,
