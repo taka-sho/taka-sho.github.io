@@ -33021,7 +33021,7 @@ var render = function() {
                                 "a",
                                 {
                                   attrs: {
-                                    href: "https://uncovertruth.co.jp",
+                                    href: "https://uncovertruth.co.jp/",
                                     target: "_blank"
                                   }
                                 },
@@ -33029,7 +33029,7 @@ var render = function() {
                               )
                             ]),
                             _c("p", [_vm._v("Jun 2016 ~")]),
-                            _c("p", [_vm._v("Frontside Engineer")])
+                            _c("p", [_vm._v("Frontside engineer")])
                           ])
                         ],
                         1
@@ -33049,7 +33049,7 @@ var render = function() {
                                 "a",
                                 {
                                   attrs: {
-                                    href: "http://lecoco.jp",
+                                    href: "http://lecoco.jp/",
                                     target: "_blank"
                                   }
                                 },
@@ -33057,7 +33057,44 @@ var render = function() {
                               )
                             ]),
                             _c("p", [_vm._v("Jan 2018 ~")]),
-                            _c("p", [_vm._v("Frontside Engineer")])
+                            _c("p", [_vm._v("Frontside engineer")])
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "b-col",
+                    [
+                      _c(
+                        "b-card",
+                        [
+                          _c("b-media", [
+                            _c("h2", { staticClass: "mt-0" }, [
+                              _c(
+                                "a",
+                                {
+                                  attrs: {
+                                    href: "http://lecoco.jp/",
+                                    target: "_blank"
+                                  }
+                                },
+                                [_vm._v("LEGO School")]
+                              )
+                            ]),
+                            _c("p", [_vm._v("Apr 2018 ~")]),
+                            _c("p", [
+                              _vm._v("Technical mentor for"),
+                              _c(
+                                "a",
+                                {
+                                  attrs: { href: "http://www.legoschool.jp/" }
+                                },
+                                [_vm._v(" FLL")]
+                              )
+                            ])
                           ])
                         ],
                         1
