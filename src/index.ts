@@ -10,7 +10,9 @@ import Top from './components/Top'
 Vue.use(VueRouter)
 Vue.use(VueBootstrap)
 
+/* tslint:disable*/
 new Vue({
   el: '#app',
   render: h => h(Top)
 })
+/* tslint:enable*/

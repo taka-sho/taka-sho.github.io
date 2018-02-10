@@ -8765,10 +8765,12 @@ var VueBootstrap = __webpack_require__(71).default;
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_router___default.a);
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(VueBootstrap);
+/* tslint:disable*/
 new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     el: '#app',
     render: function (h) { return h(__WEBPACK_IMPORTED_MODULE_2__components_Top__["a" /* default */]); }
 });
+/* tslint:enable*/
 
 
 /***/ }),

@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "run-p build:*",
     "build:js": "webpack",
     "build:html": "pug src/index.pug --out . --silent",
     "prebuild": "rimraf *.js *.html",
     "prestart": "npm run build",
-    "start": "webpack-dev-server --content-base ./"
+    "start": "webpack-dev-server --content-base ./",
+    "test": "tslint 'src/**/*.ts'"
   },
   "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
   "keywords": [],
@@ -33,6 +33,7 @@
     "ts-loader": "^3.5.0",
     "ts-node": "^4.1.0",
     "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
     "typescript": "^2.7.1",
     "vue-loader": "^14.1.1",
     "vue-style-loader": "^3.1.2",
