@@ -14,7 +14,8 @@ dependencies:
 
 test:
   override:
-    - yarn run build
+    - npm run test
+    - npm run build
 
 general:
   artifacts:

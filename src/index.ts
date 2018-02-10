@@ -10,7 +10,8 @@ import Top from './components/Top'
 Vue.use(VueRouter)
 Vue.use(VueBootstrap)
 
-new Vue({
-  el: '#app',
+const a: any = new Vue({
   render: h => h(Top)
 })
+
+a.el('#app')
