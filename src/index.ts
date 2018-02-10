@@ -10,8 +10,9 @@ import Top from './components/Top'
 Vue.use(VueRouter)
 Vue.use(VueBootstrap)
 
-const a: any = new Vue({
+/* tslint:disable*/
+new Vue({
+  el: '#app',
   render: h => h(Top)
 })
-
-a.el('#app')
+/* tslint:enable*/
