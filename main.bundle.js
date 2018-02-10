@@ -33196,7 +33196,7 @@ var render = function() {
                                     [
                                       _c("span", [_vm._v("Keio University")]),
                                       _c("br"),
-                                      _vm._v("慶應大学")
+                                      _vm._v("慶應義塾大学")
                                     ]
                                   )
                                 ])

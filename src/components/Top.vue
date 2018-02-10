@@ -93,7 +93,7 @@
                     p: a(href='https://www.keio.ac.jp/' target='_blank')
                         span Keio University
                         br
-                        | 慶應大学
+                        | 慶應義塾大学
       h2.mt-0 Contact
       b-container.bv-example-row
         b-row.text-center
