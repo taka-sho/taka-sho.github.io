@@ -7,7 +7,7 @@
     "build": "run-p build:*",
     "build:js": "webpack",
     "build:html": "pug src/index.pug --out docs --silent",
-    "prebuild": "rimraf docs",
+    "prebuild": "rimraf docs/*.js docs/*.html",
     "prestart": "npm run build",
     "start": "webpack-dev-server --content-base ./",
     "test": "tslint 'src/**/*.ts'"
