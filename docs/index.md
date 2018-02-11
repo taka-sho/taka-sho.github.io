@@ -1,1 +1,1 @@
-# taka-sho.girhub.io
+# taka-sho.github.io
