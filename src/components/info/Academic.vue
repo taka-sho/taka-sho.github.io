@@ -24,9 +24,9 @@
                       | 慶應義塾高等学校
                 .university.school
                   p: a(href='https://www.keio.ac.jp/' target='_blank')
-                      span Keio University
+                      span Faculty of science and Technology, Keio University
                       br
-                      | 慶應義塾大学
+                      | 慶應義塾大学 理工学部
 </template>
 
 <script lang='ts'>

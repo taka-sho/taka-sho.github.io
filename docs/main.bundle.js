@@ -33803,9 +33803,11 @@ var render = function() {
                                   }
                                 },
                                 [
-                                  _c("span", [_vm._v("Keio University")]),
+                                  _c("span", [
+                                    _vm._v("Faculty of science and Technology")
+                                  ]),
                                   _c("br"),
-                                  _vm._v("慶應義塾大学")
+                                  _vm._v("慶應義塾大学 理工学部")
                                 ]
                               )
                             ])
