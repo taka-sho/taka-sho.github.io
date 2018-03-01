@@ -16,6 +16,7 @@ test:
   override:
     - npm run test
     - npm run build
+  post:
     - mkdir docs
     - cp index.html ./docs
     - cp index.bundle.js ./docs
