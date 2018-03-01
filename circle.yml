@@ -19,4 +19,4 @@ test:
 
 general:
   artifacts:
-    - "./docs"
+    - "{index.html|main.bundle.js}"
