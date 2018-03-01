@@ -16,7 +16,10 @@ test:
   override:
     - npm run test
     - npm run build
+    - mkdir docs
+    - cp index.html ./docs
+    - cp index.bundle.js ./docs
 
 general:
   artifacts:
-    - "./index.*"
+    - "docs"
