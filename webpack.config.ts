@@ -6,15 +6,11 @@ module.exports = {
     main: path.join(__dirname, 'src/index.ts')
   },
   output: {
-    path: path.join(__dirname, 'docs'),
+    path: __dirname,
     filename: '[name].bundle.js'
   },
   resolve: {
-    extensions: ['.ts', '.vue', '.js'],
-    alias: {
-      vue$: 'vue/dist/vue.common.js',
-      'vue-router$': 'vue-router/dist/vue-router.common.js'
-    }
+    extensions: ['.ts', '.vue', '.js']
   },
   module: {
     rules: [

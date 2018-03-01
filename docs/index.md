@@ -1,1 +1,0 @@
-# taka-sho.github.io
