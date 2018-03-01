@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     path: __dirname,
-    filename: '[name].bundle.js'
+    filename: 'index.bundle.js'
   },
   resolve: {
     extensions: ['.ts', '.vue', '.js']
