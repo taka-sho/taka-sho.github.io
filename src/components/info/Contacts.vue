@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    h2.mt-0 Contact
+    h2.mt-0 Contacs
     b-container.bv-example-row
       b-row.text-center
         b-col
