@@ -7,24 +7,24 @@
       Basics
       Skils
       Workat
-      Academic
-      Contact
+      Academics
+      Contacts
 </template>
 
 <script lang='ts'>
 import Basics from './info/Basics'
 import Skils from './info/Skils'
 import Workat from './info/Workat'
-import Academic from './info/Academic'
-import Contact from './info/Contact.vue'
+import Academics from './info/Academics'
+import Contacts from './info/Contacts'
 
 export default {
   components: {
     Basics,
     Skils,
     Workat,
-    Academic,
-    Contact
+    Academics,
+    Contacts
   }
 }
 </script>

@@ -1,18 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+const VueBootstrap = require('bootstrap-vue').default // TODO generate d.ts file
 
-// TODO must generate d.ts file
-// import VueBootstrap from 'bootstrap-vue/dist/bootstrap-vue.esm'
-const VueBootstrap = require('bootstrap-vue').default
+import router from './router'
+import Home from './components/Home'
 
-import Top from './components/Top'
-
-Vue.use(VueRouter)
 Vue.use(VueBootstrap)
+Vue.use(VueRouter)
 
-/* tslint:disable*/
 new Vue({
-  el: '#app',
-  render: h => h(Top)
-})
-/* tslint:enable*/
+  router,
+  render: h => h(Home)
+}).$mount('#app')
