@@ -1,5 +1,7 @@
 # This page's status
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/taka-sho/taka-sho.github.io.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://circleci.com/gh/taka-sho/taka-sho.github.io/tree/master.svg?style=svg)](https://circleci.com/gh/taka-sho/taka-sho.github.io/tree/master)
 
 # Who is taka-sho?
