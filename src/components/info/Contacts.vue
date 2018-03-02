@@ -1,12 +1,12 @@
 <template lang="pug">
   div
-    h2.mt-0 Contact
+    h2.mt-0 Contacs
     b-container.bv-example-row
       b-row.text-center
         b-col
           b-card
             h2.mt-0 e-mail
-            p takasho530000@gmail.com
+            p: a(href='mailto:takasho530000@gmail.com') takasho530000@gmail.com
         b-col
           b-card
             h2.mt-0 GitHub
