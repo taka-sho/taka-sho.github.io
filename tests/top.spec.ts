@@ -1,4 +1,4 @@
-describe('angular-ui router', function () {
+describe('Display　tests', function () {
   const root = 'http://localhost:8080/#/'
 
   function displayTop (url: string, client: any): any {

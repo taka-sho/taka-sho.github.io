@@ -16,7 +16,7 @@ test:
   pre:
     - npm start:
         background: true
-    - sleep 20
+    - sleep 40
   override:
     - npm run test
     - npm run build
