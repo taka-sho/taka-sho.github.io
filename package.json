@@ -7,10 +7,15 @@
     "build": "run-p build:*",
     "build:js": "webpack",
     "build:html": "pug src/index.pug --out . --silent",
+    "clean": "rimraf tests/*.js",
     "prebuild": "rimraf index.bundle.js index.html",
     "prestart": "npm run build",
+    "pretest": "npm run clean",
+    "pretest:e2e": "tsc tests/*.ts",
     "start": "webpack-dev-server --content-base .",
-    "test": "tslint 'src/**/*.ts'"
+    "test": "run-s test:*",
+    "test:lint": "tslint 'src/**/*.ts'",
+    "test:e2e": "nightwatch"
   },
   "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
   "keywords": [],
@@ -21,15 +26,21 @@
   },
   "homepage": "https://github.com/taka-sho/taka-sho.github.io#readme",
   "devDependencies": {
+    "@types/nightwatch": "^0.9.7",
     "@types/node": "^9.4.6",
     "@types/vue": "^2.0.0",
     "@types/vue-router": "^2.0.0",
+    "chromedriver": "^2.35.0",
     "css-loader": "^0.28.10",
+    "mocha": "^5.0.1",
+    "nightwatch": "^0.9.19",
     "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2",
     "pug": "^2.0.0-rc.4",
     "pug-cli": "^1.0.0-alpha6",
+    "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
+    "selenium-server-standalone-jar": "^3.9.1",
     "style-loader": "^0.20.2",
     "ts-loader": "^4.0.0",
     "ts-node": "^5.0.0",
@@ -44,6 +55,7 @@
     "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
+    "@types/mocha": "^2.2.48",
     "bootstrap-vue": "^2.0.0-rc.1",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
