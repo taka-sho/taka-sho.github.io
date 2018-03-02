@@ -14,6 +14,9 @@ dependencies:
 
 test:
   override:
+    - npm start:
+      background: true
+    - sleep 30
     - npm run test
     - npm run build
   post:
