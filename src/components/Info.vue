@@ -12,11 +12,11 @@
 </template>
 
 <script lang='ts'>
-import Basics from './Info/Basics'
-import Skils from './Info/Skils'
-import Workat from './Info/Workat'
-import Academics from './Info/Academics'
-import Contacts from './Info/Contacts'
+import Basics from './info/Basics'
+import Skils from './info/Skils'
+import Workat from './info/Workat'
+import Academics from './info/Academics'
+import Contacts from './info/Contacts'
 
 export default {
   components: {
