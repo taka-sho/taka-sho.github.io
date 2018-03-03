@@ -1,7 +1,5 @@
 <template lang='pug'>
-div
-  h1 Hi. I'm Blog.
-  router-view
+  h1 0303
 </template>
 
 <script lang='ts'>
@@ -9,5 +7,5 @@ export default {
 }
 </script>
 
-<style lang='scss'>
+<style lang="scss">
 </style>
