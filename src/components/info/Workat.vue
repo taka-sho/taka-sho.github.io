@@ -17,7 +17,15 @@
                 a(href='http://lecoco.jp/' target='_blank') Lecoco
               p Jan 2018 ~
               p Frontside engineer
-    b-container.bv-example-row
+        b-col
+          b-card
+            b-media
+              h2.mt-0
+                a(href='http://lecoco.jp/' target='_blank') LEGO School
+              p Apr 2018 ~
+              p Technical mentor for
+                a(href='http://www.legoschool.jp/' target='_blank') &nbsp;FLL
+    //- b-container.bv-example-row
       b-row.text-center
         b-col
           b-card
