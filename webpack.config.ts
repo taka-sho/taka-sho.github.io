@@ -6,7 +6,7 @@ module.exports = {
     main: path.join(__dirname, 'src/index.ts')
   },
   output: {
-    path: __dirname,
+    path: path.join(__dirname, 'docs'),
     filename: 'index.bundle.js'
   },
   resolve: {
