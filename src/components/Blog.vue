@@ -6,12 +6,18 @@ div
       b-navbar-brand
         router-link(to='/') Takasho
           router-link(to='/blog') .Blog
-      router-link(to='/blog') Info
-    router-view
+      router-link(to='/') Info
+    blog_2018_0306
 </template>
 
 <script lang='ts'>
+
+import blog_2018_0306 from './Blog/2018-0306'
+
 export default {
+  components: {
+    blog_2018_0306
+  }
 }
 </script>
 
