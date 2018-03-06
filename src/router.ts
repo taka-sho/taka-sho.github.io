@@ -14,10 +14,7 @@ const routes = [
   },
   {
     path: '/blog',
-    component: Blog,
-    children: [
-      { path: '18-0306', component: Blog0306 }
-    ]
+    component: Blog
   },
   {
     path: '/**',
