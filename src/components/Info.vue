@@ -31,19 +31,21 @@ export default {
 
 <style lang='scss'>
   p {
-    font-family: "HiraginoSans-W2", "ヒラギノ角ゴシック W2";
+    font-family: Arial, sans-serif;
     color: #888;
   }
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    font-family: "HiraginoSans-W0", "ヒラギノ角ゴシック W0";
+    font-family: Arial, sans-serif;
     font-weight: 0;
     color: #333;
   }
+
   a {
     text-decoration: none;
     color: #88f;
@@ -55,6 +57,7 @@ export default {
     #header {
       box-shadow: 4px 0 2px 2px rgba(100, 100, 100, 0.5);
     }
+
     .container {
       margin-bottom: 30px;
     }

@@ -1,5 +1,11 @@
 <template lang='pug'>
-div
-  h1 Hi. I'm Blog.
-  router-view
+  #app
+    .title
+      h1 Hi. I'm Blog.
+    .blogs
+      router-view
 </template>
+
+<script lang='ts'></script>
+
+<style lang='scss'></style>
