@@ -1,12 +1,11 @@
 import VueRouter from 'vue-router'
 
-// import Info from './components/Info'
-// import Blog from './components/Blog'
-
+// Main components
 const Blog = () => import('./components/Blog')
 const Info = () => import('./components/Info')
 
-const Blog0303 = () => import('./components/Blog/0303')
+// Blog components
+const Blog0306 = () => import('./components/Blog/2018-0306')
 
 const routes = [
   {
@@ -15,10 +14,7 @@ const routes = [
   },
   {
     path: '/blog',
-    component: Blog,
-    children: [
-      { path: '0303', component: Blog0303 }
-    ]
+    component: Blog
   },
   {
     path: '/**',

@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: yarn
+      - run:
+          name: start
+          command: npm run start
+          background: true
+      - run: sleep 30
+      - run: npm run test
+      - run: mkdir docs
+      - run: mv index.html docs/index.html
+      - run: mv index.bundle.js docs/index.bundle.js
+      - store_artifacts:
+          path: docs
