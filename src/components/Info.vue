@@ -32,7 +32,7 @@ export default {
 
 <style lang='scss'>
   p {
-    font-family: Arial, sans-serif;
+    font-family: HiraginoSans-W2, ヒラギノ角ゴシック W2, sans-serif;
     color: #888;
   }
 
