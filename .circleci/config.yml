@@ -16,5 +16,5 @@ jobs:
       - run: mkdir docs
       - run: mv index.html docs/index.html
       - run: mv index.bundle.js docs/index.bundole.js
-      - store_atrifacts:
+      - store_artifacts:
           path: docs
