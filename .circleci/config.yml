@@ -6,13 +6,13 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: yarn install
+      - run: yarn
       - run:
-          name: start SPAs
-          command: yarn examples
+          name: start
+          command: npm run start
           background: true
       - run: sleep 30
-      - run: yarn e2e
+      - run: npm run test
       - run: mkdir docs
       - run: mv index.html docs/index.html
       - run: mv index.bundle.js docs/index.bundole.js
