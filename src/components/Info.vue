@@ -2,7 +2,8 @@
   #app
     b-navbar#header(toggleable='md' type="'dark'" variant='info' fixed='top')
       b-navbar-toggle(target='nav_collapse')
-      b-navbar-brand Takasho
+      b-navbar-brand Takasho.Info
+      router-link(to='/blog') Blog
     b-container.bv-example-row.main
       Basics
       Skils
@@ -39,18 +40,22 @@ export default {
     font-weight: 0;
     color: #333;
   }
-  a{
-    text-decoration: none;
-    color: #88f;
-  }
 
   #app {
     margin-top: 150px;
     #header {
       box-shadow: 4px 0 2px 2px rgba(100,100,100, 0.5);
+      a{
+        text-decoration: none;
+        color: #444;
+      }
     }
     .container {
       margin-bottom: 30px;
+      a{
+        text-decoration: none;
+        color: #88f;
+      }
     }
   }
 </style>

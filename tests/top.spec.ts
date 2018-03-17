@@ -10,10 +10,4 @@ describe('Display　tests', function () {
       .assert.containsText('#app .main .bv-example-row .col:nth-child(1) h2', 'Name')
       .end()
   })
-
-  it('should display Blog', (client: any) => {
-    displayTop(`${root}blog/`, client)
-      .assert.containsText('h1', "Hi. I'm Blog.")
-      .end()
-  })
 })
