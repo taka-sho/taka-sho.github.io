@@ -12,7 +12,7 @@
     "prestart": "npm run build",
     "pretest": "npm run clean",
     "pretest:e2e": "tsc tests/*.ts",
-    "start": "webpack-dev-server --content-base docs",
+    "start": "webpack-dev-server --content-base .",
     "test": "run-s test:*",
     "test:lint": "tslint 'src/**/*.ts'",
     "test:e2e": "nightwatch"
