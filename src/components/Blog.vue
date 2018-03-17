@@ -29,7 +29,7 @@ export default {
 
 a {
   color: #444;
-  transition: .3s;
+  transition: 300ms;
 }
 
 a:hover {

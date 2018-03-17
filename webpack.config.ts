@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const StyleLintPlugin = require('stylelint-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -50,6 +51,9 @@ module.exports = {
       'process.env': {
         NODE_ENV: JSON.stringify('production')
       }
+    }),
+    new StyleLintPlugin({
+        files: ['src/components/**/*.vue'] 
     })
   ]
 }

@@ -14,7 +14,8 @@
     "pretest:e2e": "tsc tests/*.ts",
     "start": "webpack-dev-server --content-base .",
     "test": "run-s test:*",
-    "test:lint": "tslint 'src/**/*.ts'",
+    "test:tslint": "tslint 'src/**/*.ts'",
+    "test:stylelint": "stylelint 'src/**/*.vue'",
     "test:e2e": "nightwatch"
   },
   "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
@@ -26,6 +27,8 @@
   },
   "homepage": "https://github.com/taka-sho/taka-sho.github.io#readme",
   "devDependencies": {
+    "@takasho/stylelint-config": "^0.0.11",
+    "@types/mocha": "^2.2.48",
     "@types/nightwatch": "^0.9.7",
     "@types/node": "^9.4.7",
     "@types/vue": "^2.0.0",
@@ -42,20 +45,21 @@
     "sass-loader": "^6.0.7",
     "selenium-server-standalone-jar": "^3.9.1",
     "style-loader": "^0.20.3",
-    "ts-loader": "^4.1.0",
-    "ts-node": "^5.0.1",
+    "stylelint": "^9.1.3",
+    "stylelint-processor-html": "^1.0.0",
+    "stylelint-scss": "^2.5.0",
+    "stylelint-webpack-plugin": "^0.10.3",
+    "ts-loader": "^3.5.0",
     "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
     "typescript": "^2.7.2",
     "vue-loader": "^14.2.1",
     "vue-style-loader": "^4.0.2",
     "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
-    "@types/mocha": "^2.2.48",
     "bootstrap-vue": "^2.0.0-rc.2",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
