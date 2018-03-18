@@ -3,7 +3,7 @@
     h2.mt-0 Academic backgrounds
     b-container.bv-example-row
       b-row.text-center
-        b-col
+        b-col(cols='12' sm='12' md='6' lg='6' xl='6')
           b-card
             b-media
               .schools
@@ -12,7 +12,7 @@
                       span Showa Primary School
                       br
                       | 昭和小学校
-        b-col
+        b-col(cols='12' sm='12' md='6' lg='6' xl='6')
           b-card
             b-media
               .schools
@@ -21,9 +21,7 @@
                       span Keio Futsubu School
                       br
                       | 慶應義塾普通部
-    b-container.bv-example-row
-      b-row.text-center
-        b-col
+        b-col(cols='12' sm='12' md='6' lg='6' xl='6')
           b-card
             b-media
               .schools
@@ -32,7 +30,7 @@
                       span Keio High School
                       br
                       | 慶應義塾高等学校
-        b-col
+        b-col(cols='12' sm='12' md='6' lg='6' xl='6')
           b-card
             b-media
               .schools

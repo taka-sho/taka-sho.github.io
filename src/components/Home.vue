@@ -8,4 +8,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+.row > div {
+  margin-bottom: 20px;
+}
 </style>

@@ -3,21 +3,21 @@
     h2.mt-0 Work at
     b-container.bv-example-row
       b-row.text-center
-        b-col
+        b-col(cols='12' sm='12' md='6' lg='4' xl='4')
           b-card
             b-media
               h2.mt-0
                 a(href='https://uncovertruth.co.jp/' target='_blank') UNCVER TRUTH
               p Jun 2016 ~
               p Frontside engineer
-        b-col
+        b-col(cols='12' sm='12' md='6' lg='4' xl='4')
           b-card
             b-media
               h2.mt-0
                 a(href='http://lecoco.jp/' target='_blank') Lecoco
               p Jan 2018 ~
               p Frontside engineer
-        b-col
+        b-col(cols='12' sm='12' md='12' lg='4' xl='4')
           b-card
             b-media
               h2.mt-0
