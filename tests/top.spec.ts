@@ -7,7 +7,7 @@ describe('Display　tests', function () {
 
   it('should display Top', (client: any) => {
     displayTop(root, client)
-      .assert.containsText('#app .main .bv-example-row .col:nth-child(1) h2', 'Name')
+      .assert.containsText('#app .main div:nth-child(1) .container .row div:nth-child(1) h2', 'Name')
       .end()
   })
 })
