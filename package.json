@@ -53,6 +53,7 @@
     "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
     "typescript": "^2.7.2",
+    "vue-analytics": "^5.9.1",
     "vue-loader": "^14.2.1",
     "vue-style-loader": "^4.0.2",
     "vue-template-compiler": "^2.5.16",
