@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 const VueAnalytics = require('vue-analytics').default // TODO generate d.ts file
 const VueBootstrap = require('bootstrap-vue').default // TODO generate d.ts file
 
-import router from './router'
 import Home from './components/Home'
+import router from './router'
 
 Vue.use(VueBootstrap)
 Vue.use(VueRouter)

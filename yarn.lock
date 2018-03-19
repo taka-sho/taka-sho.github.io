@@ -8,6 +8,12 @@
   dependencies:
     stylelint-config-standard "^18.2.0"
 
+"@takasho/tslint-config@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@takasho/tslint-config/-/tslint-config-0.0.10.tgz#6e818bbd9572e3d594f1000f468432840af27ddd"
+  dependencies:
+    tslint-config-standard "^7.0.0"
+
 "@types/babel-types@*", "@types/babel-types@^7.0.0":
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/@types/babel-types/-/babel-types-7.0.1.tgz#1405e5396968c4302994b0161ce405b72b874257"
