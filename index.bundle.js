@@ -32375,6 +32375,7 @@ var render = function() {
             [
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32391,6 +32392,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32407,6 +32409,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "12", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32567,6 +32570,7 @@ var render = function() {
             [
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32583,6 +32587,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32599,6 +32604,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "12", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32772,6 +32778,7 @@ var render = function() {
             [
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32800,6 +32807,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -32828,6 +32836,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "12", lg: "4", xl: "4" } },
                 [
                   _c(
                     "b-card",
@@ -33012,6 +33021,7 @@ var render = function() {
             [
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "6", xl: "6" } },
                 [
                   _c(
                     "b-card",
@@ -33046,6 +33056,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "6", xl: "6" } },
                 [
                   _c(
                     "b-card",
@@ -33077,23 +33088,10 @@ var render = function() {
                   )
                 ],
                 1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _c(
-        "b-container",
-        { staticClass: "bv-example-row" },
-        [
-          _c(
-            "b-row",
-            { staticClass: "text-center" },
-            [
+              ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "6", xl: "6" } },
                 [
                   _c(
                     "b-card",
@@ -33128,6 +33126,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "6", xl: "6" } },
                 [
                   _c(
                     "b-card",
@@ -33310,6 +33309,7 @@ var render = function() {
             [
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c("b-card", [
                     _c("h2", { staticClass: "mt-0" }, [_vm._v("e-mail")]),
@@ -33326,6 +33326,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "6", lg: "4", xl: "4" } },
                 [
                   _c("b-card", [
                     _c("h2", { staticClass: "mt-0" }, [_vm._v("GitHub")]),
@@ -33347,6 +33348,7 @@ var render = function() {
               ),
               _c(
                 "b-col",
+                { attrs: { cols: "12", sm: "12", md: "12", lg: "4", xl: "4" } },
                 [
                   _c("b-card", [
                     _c("h2", { staticClass: "mt-0" }, [_vm._v("Twitter")]),
@@ -33541,7 +33543,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "\n.row > div {\n  margin-bottom: 20px;\n}\n", ""]);
 
 // exports
 
