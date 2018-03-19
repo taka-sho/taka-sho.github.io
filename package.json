@@ -28,6 +28,7 @@
   "homepage": "https://github.com/taka-sho/taka-sho.github.io#readme",
   "devDependencies": {
     "@takasho/stylelint-config": "^0.0.11",
+    "@takasho/tslint-config": "^0.0.10",
     "@types/mocha": "^2.2.48",
     "@types/nightwatch": "^0.9.7",
     "@types/node": "^9.4.7",
@@ -51,7 +52,6 @@
     "stylelint-webpack-plugin": "^0.10.3",
     "ts-loader": "^3.5.0",
     "tslint": "^5.9.1",
-    "tslint-config-standard": "^7.0.0",
     "typescript": "^2.7.2",
     "vue-analytics": "^5.9.1",
     "vue-loader": "^14.2.1",
