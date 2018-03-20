@@ -7,16 +7,19 @@ div
         router-link(to='/') Takasho
           router-link(to='/blog') .Blog
       router-link(to='/') Info
+    blog_2018_0320
     blog_2018_0306
 </template>
 
 <script lang='ts'>
 
 import blog_2018_0306 from './Blog/2018-0306'
+import blog_2018_0320 from './Blog/2018-0320'
 
 export default {
   components: {
-    blog_2018_0306
+    blog_2018_0306,
+    blog_2018_0320
   }
 }
 </script>
