@@ -29,7 +29,7 @@
   "devDependencies": {
     "@takasho/stylelint-config": "^0.0.11",
     "@takasho/tslint-config": "^0.0.10",
-    "@types/mocha": "^2.2.48",
+    "@types/mocha": "^5.0.0",
     "@types/nightwatch": "^0.9.7",
     "@types/node": "^9.4.7",
     "@types/vue": "^2.0.0",
