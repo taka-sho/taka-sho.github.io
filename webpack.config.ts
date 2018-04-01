@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
 
 module.exports = {
+  mode: 'production',
   entry: {
     main: path.join(__dirname, 'src/index.ts')
   },
@@ -48,12 +49,10 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     }),
     new StyleLintPlugin({
-        files: ['src/components/**/*.vue'] 
+        files: ['src/components/**/*.vue']
     })
   ]
 }
