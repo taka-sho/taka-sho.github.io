@@ -44,7 +44,7 @@
     "pug-cli": "1.0.0-alpha6",
     "rimraf": "2.6.2",
     "sass-loader": "7.0.1",
-    "selenium-server-standalone-jar": "3.11.0",
+    "selenium-server-standalone-jar": "3.12.0",
     "style-loader": "0.21.0",
     "stylelint": "9.2.0",
     "stylelint-processor-html": "1.0.0",
