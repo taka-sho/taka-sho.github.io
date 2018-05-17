@@ -43,9 +43,9 @@
   version "0.9.8"
   resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-0.9.8.tgz#ae38fe9922e1541aabb40730771aec5944961786"
 
-"@types/node@9.6.16":
-  version "9.6.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.16.tgz#a20616348c3006277d458972ae16fe3b43b24ec1"
+"@types/node@9.6.17":
+  version "9.6.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.17.tgz#00a225d8240c953c71e7a7336e153cd69ff704b6"
 
 "@types/vue-router@2.0.0":
   version "2.0.0"
