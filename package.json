@@ -32,7 +32,7 @@
     "@types/mocha": "5.2.0",
     "@types/nightwatch": "0.9.8",
     "@types/node": "9.6.17",
-    "@types/vue": "2.0.0",
+    "@types/vue": "1.0.31",
     "@types/vue-router": "2.0.0",
     "chromedriver": "2.38.3",
     "css-loader": "0.28.11",
