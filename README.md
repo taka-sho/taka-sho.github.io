@@ -6,7 +6,7 @@
 # Who is taka-sho?
 
 - Shotaro Takahara (Nickname: Takasho)
-- ペンペンな高校に通う普通の高校生（もうすぐ大学生...?)
+- ペンペンな大学に通う普通の大学生
 
 # What award did I win?
 
