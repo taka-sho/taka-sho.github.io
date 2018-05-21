@@ -6,7 +6,7 @@
         b-col(cols='12' sm='12' md='6' lg='4' xl='4')
           b-card
             h2.mt-0 e-mail
-            p: a(href='mailto:takasho530000@gmail.com') takasho530000@gmail.com
+            p: a(href='mailto:takasho530000@gmail.com') takasho@keio.jp
         b-col(cols='12' sm='12' md='6' lg='4' xl='4')
           b-card
             h2.mt-0 GitHub

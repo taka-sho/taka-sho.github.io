@@ -8,7 +8,7 @@
 - Shotaro Takahara (Nickname: Takasho)
 - ペンペンな高校に通う普通の高校生（もうすぐ大学生...?)
 
-# What award did I won?
+# What award did I win?
 
 - Robot Presentation Award at First Lego League in 2014
 - Progate Award at Kaumo Hackathon in 2016
