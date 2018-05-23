@@ -14,10 +14,10 @@
           b-card
             b-media
               h2.mt-0
-                a(href='http://lecoco.jp/' target='_blank') LEGO School
+                a(href='http://www.legoschool.jp/' target='_blank') LEGO School
               p Apr 2018 ~
               p Technical mentor for
-                a(href='http://www.legoschool.jp/' target='_blank') &nbsp;FLL
+                a(href='http://www.firstlegoleague.org/' target='_blank') &nbsp;FLL
     //- b-container.bv-example-row
       b-row.text-center
         b-col
