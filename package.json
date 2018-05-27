@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "run-p build:*",
+    "build": "nuxt build --spa",
     "build:js": "webpack",
     "build:html": "pug src/index.pug --out . --silent",
+    "dev": "nuxt",
     "clean": "rimraf tests/*.js",
     "prebuild": "rimraf index.bundle.js index.html",
     "prestart": "npm run build",
@@ -20,7 +21,7 @@
   },
   "repository": "git+https://github.com/taka-sho/taka-sho.github.io.git",
   "keywords": [],
-  "author": "taka-sho <takasho530000@gmail.com>",
+  "author": "taka-sho <takasho@keio.jp>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/taka-sho/taka-sho.github.io/issues"
@@ -62,7 +63,8 @@
     "webpack-dev-server": "3.1.4"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "nuxt": "^1.4.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   }

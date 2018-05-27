@@ -7,14 +7,6 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run:
-          name: start
-          command: npm run start
-          background: true
-      - run: sleep 30
-      - run: npm run test
-      - run: mkdir docs
-      - run: mv index.html docs/index.html
-      - run: mv index.bundle.js docs/index.bundle.js
+      - run: npm run build
       - store_artifacts:
-          path: docs
+          path: dist
