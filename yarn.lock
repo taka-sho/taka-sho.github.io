@@ -31,9 +31,9 @@
   dependencies:
     "@types/babel-types" "*"
 
-"@types/mocha@5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.1.tgz#465450aaf5cec6f7d35523748c6cc89a5e222dc5"
+"@types/mocha@5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.3.tgz#11f3a5629d67cd444fa6c94536576244e6a52ea9"
 
 "@types/nightwatch@0.9.8":
   version "0.9.8"
