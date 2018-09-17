@@ -6759,9 +6759,9 @@ void-elements@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
 
-vue-analytics@5.12.2:
-  version "5.12.2"
-  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.12.2.tgz#6318be3cfa0ce7fa6b00cb8a9fcd42268e75fab8"
+vue-analytics@5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.16.0.tgz#82e88703a0678cba076d51acacd6569bc8f7d54c"
 
 vue-functional-data-merge@^2.0.5:
   version "2.0.5"
