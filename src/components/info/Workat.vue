@@ -20,13 +20,13 @@ export default {
         {
           name: 'UNCOVER TRUTH Inc.',
           url: 'https://uncovertruth.co.jp/',
-          since: 'Jun 2016 ~',
+          since: 'June 2016 ~',
           type: 'Frontside engineer'
         },
         {
           name: 'LEGO School',
           url: 'http://www.legoschool.jp/',
-          since: 'Apr 2018 ~',
+          since: 'April 2018 ~',
           type: 'Technical mentor'
         }
       ]
