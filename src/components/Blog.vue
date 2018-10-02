@@ -4,7 +4,7 @@ div
     b-navbar#header(toggleable='md' type="'dark'" variant='info' fixed='top')
       b-navbar-toggle(target='nav_collapse')
       b-navbar-brand
-        router-link(to='/') Takasho
+        router-link(to='/') taka-sho.info
           router-link(to='/blog') .Blog
       router-link(to='/') Info
     blog_2018_0323
