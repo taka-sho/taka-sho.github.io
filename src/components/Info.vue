@@ -2,8 +2,8 @@
   #app
     b-navbar#header(toggleable='md' type="'dark'" variant='info' fixed='top')
       b-navbar-toggle(target='nav_collapse')
-      b-navbar-brand Takasho.Info
-      router-link(to='/blog') Blog
+      b-navbar-brand taka-sho.info
+      //- router-link(to='/blog') Blog
     b-container.bv-example-row.main
       Basics
       Skils

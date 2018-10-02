@@ -14,7 +14,7 @@
         b-col(cols='12' sm='12' md='12' lg='4' xl='4')
           b-card
             h2.mt-0 Twitter
-            p: a(href='https://twitter.com/takasho_real/' target='_blank') @takasho_real
+            p: a(href='https://twitter.com/taka_sho_fe/' target='_blank') @taka_sho_fe
 </template>
 
 <script lang='ts'>
