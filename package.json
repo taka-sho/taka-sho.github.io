@@ -8,6 +8,7 @@
     "build:js": "webpack",
     "build:html": "pug src/index.pug --out . --silent",
     "clean": "rimraf tests/*.js",
+    "dev": "nuxt",
     "prebuild": "rimraf index.bundle.js index.html",
     "prestart": "npm run build",
     "pretest": "npm run clean",
@@ -56,7 +57,7 @@
     "vue-analytics": "5.16.0",
     "vue-loader": "14.2.3",
     "vue-style-loader": "4.1.2",
-    "vue-template-compiler": "2.5.16",
+    "vue-template-compiler": "^2.5.17",
     "webpack": "4.20.2",
     "webpack-cli": "3.1.2",
     "webpack-dev-server": "3.1.9"
@@ -64,7 +65,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.3",
     "nuxt": "^2.1.0",
-    "vue": "^2.5.16",
+    "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   }
 }
