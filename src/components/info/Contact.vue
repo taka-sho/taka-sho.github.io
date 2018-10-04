@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    h2.mt-0 Contacts
+    h2.mt-0 Contact
     b-container.bv-example-row
       b-row.text-center
         b-col(v-for='contact in contacts' cols='12' sm='12' md='6' lg='4' xl='4')

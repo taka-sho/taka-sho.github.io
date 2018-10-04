@@ -9,7 +9,7 @@
       Skils
       Workat
       Academics
-      Contacts
+      Contact
 </template>
 
 <script lang='ts'>
@@ -17,7 +17,7 @@ import Basics from './info/Basics'
 import Skils from './info/Skils'
 import Workat from './info/Workat'
 import Academics from './info/Academics'
-import Contacts from './info/Contacts'
+import Contact from './info/Contact'
 
 export default {
   components: {
@@ -25,7 +25,7 @@ export default {
     Skils,
     Workat,
     Academics,
-    Contacts
+    Contact
   }
 }
 </script>

@@ -19,10 +19,26 @@ export default {
   data () {
     return {
       schools: [
-        { en: 'Showa Primary School', ja: '昭和小学校', url: 'https://es.swu.ac.jp/'},
-        { en: 'Keio Futsubu School', ja: '慶應義塾普通部', url: 'http://www.kf.keio.ac.jp/'},
-        { en: 'Keio High School', ja: '慶應義塾高等学校', url: 'https://www.hs.keio.ac.jp/'},
-        { en: 'Faculty of science and Technology, Keio University', ja: '慶應義塾大学 理工学部', url: 'https://www.keio.ac.jp/'}
+        {
+          en: 'Showa Primary School',
+          ja: '昭和小学校',
+          url: 'https://es.swu.ac.jp/'
+        },
+        {
+          en: 'Keio Futsubu School',
+          ja: '慶應義塾普通部',
+          url: 'http://www.kf.keio.ac.jp/'
+        },
+        {
+          en: 'Keio High School',
+          ja: '慶應義塾高等学校',
+          url: 'https://www.hs.keio.ac.jp/'
+        },
+        {
+          en: 'Faculty of science and technology, Keio University',
+          ja: '慶應義塾大学 理工学部',
+          url: 'https://www.keio.ac.jp/'
+        }
       ]
     }
   }
