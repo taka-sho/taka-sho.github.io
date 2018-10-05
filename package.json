@@ -10,7 +10,7 @@
     "heroku-postbuild": "npm run build",
     "pretest": "npm run clean",
     "pretest:e2e": "tsc tests/*.ts",
-    "start": "nuxt",
+    "start": "nuxt start",
     "test": "run-s test:*",
     "test:tslint": "tslint 'src/**/*.ts'",
     "test:stylelint": "stylelint 'src/**/*.vue'",
