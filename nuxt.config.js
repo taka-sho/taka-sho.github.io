@@ -1,6 +1,6 @@
 module.exports = {
   head: {
-    title: '{{ name }}',
+    title: 'taka-sho',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
