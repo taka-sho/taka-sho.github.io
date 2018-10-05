@@ -1,9 +1,16 @@
 <template lang="pug">
-  router-link(to='/blog') to blog top
+  div
+    h1 honya
+    p morake
 </template>
 
-<script lang='ts'>
+<script>
 export default {
+  data () {
+    return {
+
+    }
+  }
 }
 </script>
 

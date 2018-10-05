@@ -9,6 +9,7 @@
     "build:html": "pug src/index.pug --out . --silent",
     "clean": "rimraf tests/*.js",
     "dev": "nuxt",
+    "heroku-postbuild": "npm run build",
     "prebuild": "rimraf index.bundle.js index.html",
     "prestart": "npm run build",
     "pretest": "npm run clean",
@@ -33,8 +34,6 @@
     "@types/mocha": "5.2.5",
     "@types/nightwatch": "0.9.9",
     "@types/node": "9.6.32",
-    "@types/vue": "2.0.0",
-    "@types/vue-router": "2.0.0",
     "chromedriver": "2.42.0",
     "css-loader": "1.0.0",
     "mocha": "5.2.0",
@@ -51,9 +50,9 @@
     "stylelint-processor-html": "1.0.0",
     "stylelint-scss": "3.3.1",
     "stylelint-webpack-plugin": "0.10.5",
-    "ts-loader": "4.3.0",
+    "ts-loader": "^5.2.1",
     "tslint": "5.11.0",
-    "typescript": "3.1.1",
+    "typescript": "^3.1.1",
     "vue-analytics": "5.16.0",
     "vue-loader": "14.2.3",
     "vue-style-loader": "4.1.2",
@@ -65,7 +64,6 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.3",
     "nuxt": "^2.1.0",
-    "vue": "^2.5.17",
-    "vue-router": "^3.0.1"
+    "nuxt-property-decorator": "^1.2.0"
   }
 }

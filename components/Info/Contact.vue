@@ -17,7 +17,12 @@
             p: a(href='https://twitter.com/taka_sho_fe/' target='_blank') @taka_sho_fe
 </template>
 
-<script lang='ts'>
+<script>
 export default {
+  data () {
+    return {
+      
+    }
+  }
 }
 </script>
