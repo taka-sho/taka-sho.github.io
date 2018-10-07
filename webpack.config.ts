@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   mode: 'production',
@@ -26,17 +27,25 @@ module.exports = {
       },
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
-        exclude: /node_modules/,
-        options: {
-          loaders: {
-            'scss': [
-              'vue-style-loader',
-              'css-loader',
-              'sass-loader'
-            ]
-          }
-        }
+        loader: 'vue-loader'
+      },
+      {
+        test: /\.pug$/,
+        oneOf: [
+          {
+            resourceQuery: /^\?vue/,
+            use: ['pug-plain-loader']
+          },
+          {　use: ['raw-loader', 'pug-plain-loader']　}
+        ]
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
       },
       {
        test: /\.css$/,
@@ -53,6 +62,7 @@ module.exports = {
     }),
     new StyleLintPlugin({
         files: ['src/components/**/*.vue']
-    })
+    }),
+    new VueLoaderPlugin()
   ]
 }
