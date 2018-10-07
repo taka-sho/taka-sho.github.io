@@ -2,14 +2,14 @@
   #app
     b-navbar#header(toggleable='md' type="'dark'" variant='info' fixed='top')
       b-navbar-toggle(target='nav_collapse')
-      b-navbar-brand Takasho.Info
-      router-link(to='/blog') Blog
+      b-navbar-brand taka-sho.info
+      //- router-link(to='/blog') Blog
     b-container.bv-example-row.main
       Basics
       Skils
       Workat
       Academics
-      Contacts
+      Contact
 </template>
 
 <script lang='ts'>
@@ -17,7 +17,7 @@ import Basics from './info/Basics'
 import Skils from './info/Skils'
 import Workat from './info/Workat'
 import Academics from './info/Academics'
-import Contacts from './info/Contacts'
+import Contact from './info/Contact'
 
 export default {
   components: {
@@ -25,7 +25,7 @@ export default {
     Skils,
     Workat,
     Academics,
-    Contacts
+    Contact
   }
 }
 </script>

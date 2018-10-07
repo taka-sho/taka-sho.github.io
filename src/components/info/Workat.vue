@@ -3,42 +3,34 @@
     h2.mt-0 Work at
     b-container.bv-example-row
       b-row.text-center
-        b-col(cols='12' sm='12' md='12' lg='6' xl='6')
+        b-col(v-for='work in works' cols='12' sm='12' md='12' lg='6' xl='6')
           b-card
             b-media
               h2.mt-0
-                a(href='https://uncovertruth.co.jp/' target='_blank') UNCVER TRUTH
-              p Jun 2016 ~
-              p Frontside engineer
-        b-col(cols='12' sm='12' md='12' lg='6' xl='6')
-          b-card
-            b-media
-              h2.mt-0
-                a(href='http://www.legoschool.jp/' target='_blank') LEGO School
-              p Apr 2018 ~
-              p Technical mentor for
-                a(href='http://www.firstlegoleague.org/' target='_blank') &nbsp;FLL
-    //- b-container.bv-example-row
-      b-row.text-center
-        b-col
-          b-card
-            b-media
-              h2.mt-0
-                a(href='http://life-is-tech.com/' target='_blank') Life is Tech !
-              p Mar 2018 ~
-              p A member of
-                a(href='https://life-is-tech.com/leaders/' target='_blank') &nbsp;10th Leaders
-        b-col
-          b-card
-            b-media
-              h2.mt-0
-                a(href='http://lecoco.jp/' target='_blank') LEGO School
-              p Apr 2018 ~
-              p Technical mentor for
-                a(href='http://www.legoschool.jp/' target='_blank') &nbsp;FLL
+                a(v-bind:href='work.url' target='_blank') {{ work.name }}
+              p {{ work.since }}
+              p {{ work.type }}
 </template>
 
 <script lang='ts'>
 export default {
+  data () {
+    return {
+      works: [
+        {
+          name: 'UNCOVER TRUTH Inc.',
+          url: 'https://uncovertruth.co.jp/',
+          since: 'June 2016 ~',
+          type: 'Frontside engineer'
+        },
+        {
+          name: 'LEGO School',
+          url: 'http://www.legoschool.jp/',
+          since: 'April 2018 ~',
+          type: 'Technical mentor'
+        }
+      ]
+    }
+  }
 }
 </script>
