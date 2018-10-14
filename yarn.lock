@@ -114,9 +114,9 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@takasho/stylelint-config@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@takasho/stylelint-config/-/stylelint-config-0.0.11.tgz#9358788e8ec49cfe73ac1c6b63f5339c96a913e2"
+"@takasho/stylelint-config@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@takasho/stylelint-config/-/stylelint-config-1.0.0.tgz#fb0b16974dcab8a77e95d40b7144929ad027f49b"
   dependencies:
     stylelint-config-standard "^18.2.0"
 
