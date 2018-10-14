@@ -28,7 +28,7 @@
   "homepage": "https://github.com/taka-sho/taka-sho.github.io#readme",
   "devDependencies": {
     "@takasho/stylelint-config": "0.0.11",
-    "@takasho/tslint-config": "0.0.10",
+    "@takasho/tslint-config": "1.0.0",
     "@types/mocha": "5.2.5",
     "@types/nightwatch": "0.9.9",
     "@types/node": "9.6.35",
