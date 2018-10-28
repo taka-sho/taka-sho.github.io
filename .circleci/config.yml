@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8-browsers@sha256:03b857e6f5732a6e38b14a7be0bf950079fffa5132c1b9545d6575c19df730f3
+      - image: circleci/node:8-browsers@sha256:c54e17785d4cd79cbbd9032dae84c2dce3937697d9c79086b57994a53b712f9f
     working_directory: ~/repo
     steps:
       - checkout
