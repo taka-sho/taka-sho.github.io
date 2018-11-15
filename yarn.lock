@@ -192,10 +192,10 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.5.tgz#8a4accfc403c124a0bafe8a9fc61a05ec1032073"
   integrity sha512-lAVp+Kj54ui/vLUFxsJTMtWvZraZxum3w3Nwkble2dNuV5VnPA+Mi2oGX9XYJAaIvZi3tn3cbjS/qcJXRb6Bww==
 
-"@types/nightwatch@0.9.10":
-  version "0.9.10"
-  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-0.9.10.tgz#7f21063009dc019d2a9c029769f8883316c18d80"
-  integrity sha512-tUt0gne9bdoWIVVRf9MT48Ce8hFdMEURDy9RNH5KpWDTBRa7tS3E881ombsxXNBrRLRZOIfxrDStuUGnwSyWIw==
+"@types/nightwatch@0.9.11":
+  version "0.9.11"
+  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-0.9.11.tgz#2d5e83359a453f58a662d462008cee3c6613018f"
+  integrity sha512-wMg/PX1vbmKW5vyikHv+GJQdw3RB5cD5bB87DRvRsQFoQNJrCrks0Zw9GsOTwTog3iEOJ3bUI64MjbLgAxDiXA==
 
 "@types/node@9.6.38":
   version "9.6.38"
