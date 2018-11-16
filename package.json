@@ -33,7 +33,7 @@
     "@types/nightwatch": "0.9.11",
     "@types/node": "9.6.39",
     "@types/vue-router": "2.0.0",
-    "chromedriver": "2.43.2",
+    "chromedriver": "2.43.3",
     "css-loader": "1.0.1",
     "mocha": "5.2.0",
     "nightwatch": "0.9.21",
