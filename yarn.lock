@@ -1244,10 +1244,10 @@ chrome-trace-event@^1.0.0:
   dependencies:
     tslib "^1.9.0"
 
-chromedriver@2.43.1:
-  version "2.43.1"
-  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.43.1.tgz#b5ee75857f012ab540e74638206c062a0a962044"
-  integrity sha512-AqUEHpS+IzYm7HkBwElzVGe26Rs7hQwBoUSA4l7ju6Uymr1l0EtYpYfA3mDBqvvFif80yYh7blR0gLsc7h6Qpw==
+chromedriver@2.43.2:
+  version "2.43.2"
+  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.43.2.tgz#03e4f4055a3c0b89e71e230a5ee84eee1428566e"
+  integrity sha512-GM2BbqB+cL3ZfD6H9Ci/BJB3ZxH8MHb9Yr0GO03KXzQDjntt7NICfAAadAoXiK8i6XSm0ubp5vBxBcyCHao/iw==
   dependencies:
     del "^3.0.0"
     extract-zip "^1.6.7"
