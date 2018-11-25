@@ -42,7 +42,7 @@ export default {
   h4,
   h5,
   h6 {
-    font-family: Arial, sans-serif;
+    font-family: HiraginoSans-W2, ヒラギノ角ゴシック W2, sans-serif;
     font-weight: 0;
     color: #333;
   }
