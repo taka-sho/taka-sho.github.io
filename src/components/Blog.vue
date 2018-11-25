@@ -10,6 +10,7 @@ div
     //- blog_2018_0323
     //- blog_2018_0320
     //- blog_2018_0306
+    blog_2018_1125
     blog_2018_1122
 </template>
 
@@ -18,6 +19,7 @@ div
 // import blog_2018_0306 from './Blog/2018-0306'
 // import blog_2018_0320 from './Blog/2018-0320'
 // import blog_2018_0323 from './Blog/2018-0323'
+import blog_2018_1125 from './Blog/2018-1125'
 import blog_2018_1122 from './Blog/2018-1122'
 
 export default {
@@ -25,6 +27,7 @@ export default {
     // blog_2018_0306,
     // blog_2018_0320,
     // blog_2018_0323,
+    blog_2018_1125,
     blog_2018_1122
   }
 }
