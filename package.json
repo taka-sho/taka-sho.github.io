@@ -36,7 +36,7 @@
     "chromedriver": "2.45.0",
     "css-loader": "2.0.1",
     "mocha": "5.2.0",
-    "nightwatch": "0.9.21",
+    "nightwatch": "1.0.16",
     "node-sass": "4.11.0",
     "npm-run-all": "4.1.5",
     "pug": "2.0.3",
