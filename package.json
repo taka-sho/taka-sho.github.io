@@ -31,7 +31,7 @@
     "@takasho/tslint-config": "1.0.0",
     "@types/mocha": "5.2.5",
     "@types/nightwatch": "0.9.11",
-    "@types/node": "9.6.40",
+    "@types/node": "9.6.41",
     "@types/vue-router": "2.0.0",
     "chromedriver": "2.45.0",
     "css-loader": "2.0.1",
