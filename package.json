@@ -51,7 +51,7 @@
     "stylelint-processor-html": "1.0.0",
     "stylelint-scss": "3.7.0",
     "stylelint-webpack-plugin": "0.10.5",
-    "ts-loader": "5.3.3",
+    "ts-loader": "5.4.5",
     "tslint": "5.17.0",
     "typescript": "3.5.1",
     "vue-analytics": "5.16.4",
