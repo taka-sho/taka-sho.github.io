@@ -205,10 +205,10 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.7.tgz#315d570ccb56c53452ff8638738df60726d5b6ea"
   integrity sha512-NYrtPht0wGzhwe9+/idPaBB+TqkY9AhTvOLMkThm0IoEfLaiVQZwBwyJ5puCkO3AUCWrmcoePjp2mbFocKy4SQ==
 
-"@types/nightwatch@0.9.12":
-  version "0.9.12"
-  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-0.9.12.tgz#c9e60b1257b9806cb1c3f6e8f4e4d170d8011a6b"
-  integrity sha512-lnq0lQMU2nYcpYLTw4J0k8t8w1tAMkybzdvEzJe9POSUOPV5pR6rriYvrABwwYRdf6PH0k8HmUkbTN5EpZ8GWA==
+"@types/nightwatch@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-1.1.0.tgz#a13147599b639361d8d85e6df9481ddcaf400234"
+  integrity sha512-K0c1JLzKBxlZe/uDUmOfIeGy+vbshDK26Vwpnf+nSld1aaZ/cDXwagk3R056zscbpJwomKbIA0jM+zgtPtr/DA==
 
 "@types/node@*":
   version "10.12.18"
@@ -4949,10 +4949,10 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
   integrity sha512-2NpiFHqC87y/zFke0fC0spBXL3bBsoh/p5H1EFhshxjCR5+0g2d6BiXbUFz9v1sAcxsk2htp2eQnNIci2dIYcA==
 
-nightwatch@1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.1.10.tgz#f9587f48702cb16fbba7d86a06ca23243fa42a5e"
-  integrity sha512-lMrzQoCRt5dPy20HEAIP2kI/X0ztu3DSI2mKx/NjC5SNBe/UQxh0t5eA53xD77ac8UxYMjz7Ycuge2A4m524Lg==
+nightwatch@1.1.12:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.1.12.tgz#3597c6b5428fec46cd42ef844572516e4d514759"
+  integrity sha512-xbQ+/oXRu/OSyidJ9CKvgM+9FpdFgOl/I/ZS69EBxaQeBFOupCcZJnJr6/zog7YOcpgKNZvzu9L4pXBErRfI1Q==
   dependencies:
     assertion-error "^1.1.0"
     chai-nightwatch "^0.3.0"
