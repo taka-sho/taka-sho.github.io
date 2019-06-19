@@ -47,7 +47,7 @@
     "sass-loader": "7.1.0",
     "selenium-server-standalone-jar": "3.14.0",
     "style-loader": "0.23.1",
-    "stylelint": "9.10.1",
+    "stylelint": "10.1.0",
     "stylelint-processor-html": "1.0.0",
     "stylelint-scss": "3.8.0",
     "stylelint-webpack-plugin": "0.10.5",
