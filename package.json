@@ -34,7 +34,7 @@
     "@types/node": "9.6.50",
     "@types/vue-router": "2.0.0",
     "chromedriver": "2.46.0",
-    "css-loader": "3.1.0",
+    "css-loader": "3.2.0",
     "mocha": "6.2.0",
     "nightwatch": "1.1.13",
     "node-sass": "4.12.0",
