@@ -30,7 +30,7 @@
     "@takasho/stylelint-config": "1.0.0",
     "@takasho/tslint-config": "1.0.0",
     "@types/mocha": "5.2.7",
-    "@types/nightwatch": "1.1.1",
+    "@types/nightwatch": "1.1.2",
     "@types/node": "9.6.55",
     "@types/vue-router": "2.0.0",
     "chromedriver": "2.46.0",
