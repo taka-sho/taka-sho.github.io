@@ -8342,10 +8342,10 @@ void-elements@^2.0.1:
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
-vue-analytics@5.17.4:
-  version "5.17.4"
-  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.17.4.tgz#2c6e1f9e2288af7fb2e830ebee2fb10104b58031"
-  integrity sha512-r54yJXCyyUkwZYV/hkx5zxt+FK9Jb8c0DshmQfp+UoFHNe9rt0VcPlef4M9pp9Gu0wljLGs3aXhk51i02VkaXg==
+vue-analytics@5.17.5:
+  version "5.17.5"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.17.5.tgz#4c03806755132801d4469e220cbf82353c2252db"
+  integrity sha512-BIrnsHy4nf82htNofSnm4B2SaWNlDDmBZsCq0YhSdWLk203qSXBD+z1RrGrE9KAH7YcbH9HE+aBCV9eXWBC02g==
 
 vue-functional-data-merge@^2.0.5:
   version "2.0.5"
