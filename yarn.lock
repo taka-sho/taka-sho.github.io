@@ -217,10 +217,10 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.7.tgz#315d570ccb56c53452ff8638738df60726d5b6ea"
   integrity sha512-NYrtPht0wGzhwe9+/idPaBB+TqkY9AhTvOLMkThm0IoEfLaiVQZwBwyJ5puCkO3AUCWrmcoePjp2mbFocKy4SQ==
 
-"@types/nightwatch@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-1.1.2.tgz#a0056ad47505596784cc595c296aa7742f7eca35"
-  integrity sha512-amxgyppORsb8MinJ00tx+X8lijqrvGEVLBCTCumbRfL/xQ0UOXubchrakf+mnbYdmgsj8+OBlTgUPb+0dJXtAA==
+"@types/nightwatch@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@types/nightwatch/-/nightwatch-1.1.3.tgz#e657395cdedc615888a082135c83db50b42e3102"
+  integrity sha512-pFPMk9V84FQb2az6dpcsuo7yaeAZfP2TqufKYahKytchG3ePHpCwKsERe3spUEjFWZNy+dhDp7emIZLf4umTyw==
 
 "@types/node@*":
   version "10.12.18"
