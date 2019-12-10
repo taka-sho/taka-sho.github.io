@@ -8571,10 +8571,10 @@ void-elements@^2.0.1:
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
-vue-analytics@5.18.0:
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.18.0.tgz#15a4aee44700d6ba3ee0b0dbd98b58154c78c53d"
-  integrity sha512-rnDwx+4mksrwohIxqwJqRVuXotpyKjEPeqMoYveAK3vIp8MiO2BuUfVxELaPFN9/OXFt2ayuQDMParsjWDrNmA==
+vue-analytics@5.19.0:
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.19.0.tgz#c959ecae1eaeed66f596a7ebe56d1cd2707a969e"
+  integrity sha512-qKlJwHa6vtjNw8FhOQo9q2a5EgSUPoMb1POcfHmOy6SFXRjY3s9BKC3Q1JLSFITpwXK5PB9d1X/vw/kbxk69vg==
 
 vue-functional-data-merge@^2.0.5:
   version "2.0.5"
