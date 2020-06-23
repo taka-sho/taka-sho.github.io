@@ -55,7 +55,7 @@
     "tslint": "5.20.1",
     "typescript": "3.9.5",
     "vue-analytics": "5.22.1",
-    "vue-loader": "15.9.2",
+    "vue-loader": "15.9.3",
     "vue-style-loader": "4.1.2",
     "vue-template-compiler": "2.5.16",
     "webpack": "4.43.0",
