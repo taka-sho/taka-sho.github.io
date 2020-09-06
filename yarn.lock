@@ -4985,10 +4985,10 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
   integrity sha512-2NpiFHqC87y/zFke0fC0spBXL3bBsoh/p5H1EFhshxjCR5+0g2d6BiXbUFz9v1sAcxsk2htp2eQnNIci2dIYcA==
 
-nightwatch@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.4.0.tgz#f031b11dda14a022af232f3f7728de03026d4625"
-  integrity sha512-o7045SyP81dHN74ysB62Q725w0pQFpy786du63G7qo4YLzusJ5lKEwniyvADl0EI/eljEcbLdiGULLAMiFgVVw==
+nightwatch@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-1.4.1.tgz#970690c1fd6dc36c1b9065408e3bf96bbb68e92d"
+  integrity sha512-2iMDQHx22ECzJGFoZc8hFCdojDzG5fuJz2bO3XWeFMAn/KtNB6sON1NTPV8uVf34OBzcFzTreLAKGijCuVtwxA==
   dependencies:
     assertion-error "^1.1.0"
     chai-nightwatch "^0.4.0"
@@ -5002,6 +5002,7 @@ nightwatch@1.4.0:
     minimatch "3.0.4"
     minimist "^1.2.5"
     mkpath "1.0.0"
+    mocha "6.2.3"
     ora "^4.0.3"
     proxy-agent "^3.1.1"
     request "^2.88.2"
